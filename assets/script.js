@@ -17,7 +17,7 @@ determineBtn.addEventListener("click", function () {
     defaultAns[2].selectedIndex == 1
   ) {
     heading.textContent = "You're an alien";
-    image.setAttribute("src", "./background.jfif.jfif");
+    image.setAttribute("src", "./background.jfif");
   } else if (
     defaultAns[0].selectedIndex == 2 &&
     defaultAns[1].selectedIndex == 1 &&
@@ -27,7 +27,7 @@ determineBtn.addEventListener("click", function () {
     image.setAttribute("src", "./bizarre.jfif");
   } else {
     heading.textContent = "You're normal";
-    image.setAttribute("src", "./normal.jfif.jfif");
+    image.setAttribute("src", "./normal.jfif");
   }
 
   defaultResultBox[0].appendChild(heading);
