@@ -12,22 +12,22 @@ determineBtn.addEventListener("click", function () {
   image.classList.add("default-img");
 
   if (
-    defaultAns[0].selectedIndex == 4 &&
+    defaultAns[0].selectedIndex == 2 &&
     defaultAns[1].selectedIndex == 3 &&
-    defaultAns[2].selectedIndex == 2
+    defaultAns[2].selectedIndex == 1
   ) {
     heading.textContent = "You're an alien";
-    image.setAttribute("src", "/assets/background.jfif");
+    image.setAttribute("src", "./background.jfif.jfif");
   } else if (
-    defaultAns[0].selectedIndex == 1 &&
+    defaultAns[0].selectedIndex == 2 &&
     defaultAns[1].selectedIndex == 1 &&
     defaultAns[2].selectedIndex == 2
   ) {
     heading.textContent = "You're bizarre";
-    image.setAttribute("src", "/assets/bizarre.jfif");
+    image.setAttribute("src", "./bizarre.jfif");
   } else {
     heading.textContent = "You're normal";
-    image.setAttribute("src", "/assets/normal.jfif");
+    image.setAttribute("src", "./normal.jfif.jfif");
   }
 
   defaultResultBox[0].appendChild(heading);
